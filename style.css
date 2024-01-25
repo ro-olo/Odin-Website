@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    
+    margin: 0px;
 }
 
 ul {
@@ -14,9 +14,28 @@ ul {
     display:flex;
     align-content: center;
     justify-content: space-between;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 70px;
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.inside {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+
+.sign {
+    
+}
+
+.placeholder {
+    width: 400px;
 }
 
 .logo {
@@ -38,8 +57,107 @@ ul {
     color: #F9FAF8;
 }
 
+
+.info {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.infotitle {
+    font-size: 36 px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 30px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding:20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.small {
+    width: 150px;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+}
+
+.quote {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+}
+
+.sentence {
+    font-style: italic;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.signature {
+    font-weight: bold;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: end;
+}
+
+.class, .footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0px;
+}
+
+.call {
+    background-color: #3882F6;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #F9FAF8;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    text-align: center;
+}
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
